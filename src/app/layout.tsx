@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "@/styles/index.css";
-import "@/styles/tailwind.css";
 import "@/styles/fonts.css";
 export const metadata: Metadata = {
   title: "Limeneer Website",

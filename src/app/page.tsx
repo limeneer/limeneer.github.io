@@ -1,6 +1,5 @@
 import Navbar from "@/components/IndexNavbar";
 import Hero from "@/components/Hero";
-import "@/styles/tailwind.css";
 
 export default function PageLayout() {
   return (
