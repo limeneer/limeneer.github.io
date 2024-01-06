@@ -1,20 +1,23 @@
-import type { Config } from 'tailwindcss'
-
+import type { Config } from "tailwindcss";
 const config: Config = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        azonix: ["Azonix", "sans-serif"],
+      },
+      colors: {
+        "soft-white": "#f9f9fb",
+        "limeneer-cyan": "#00FFFF",
+        "limeneer-blue": "#000078",
       },
     },
   },
   plugins: [],
-}
-export default config
+  // safelist: ["bg-[#00FFFF]", "#f9f9fb", "lg:text-4xl"],
+};
+export default config;

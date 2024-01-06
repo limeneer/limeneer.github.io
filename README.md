@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Limeneer Website:
 
-## Getting Started
+Keep it simple and clean
 
-First, run the development server:
+## colors:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+-black
+-white (background)
+-Cyan (#00FFFF) highlights
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## banner/top bar:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+black with white text using the "Azonix" font, cyan top left drop shadow on text
+from left to right:
+-Logo & "LimeneerLabs" (bring you to home page)
+-Projects
+-Product
+-Documentation
+-Community
+-About Us
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## home page:
 
-## Learn More
+-intro video?
+-latest news and projects
 
-To learn more about Next.js, take a look at the following resources:
+## project page:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-list of projects
+-each project has it's own page
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## products page:
 
-## Deploy on Vercel
+-list of all Limeneer products and links to where you can buy them
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## documentation page:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+-list of all projects documentations and links to github
+
+## comunity:
+
+-link to the discord server
+
+## about us page:
+
+-picture of us?
+-text describing what LimeneerLabs is, who we are, our goals yady yada...
