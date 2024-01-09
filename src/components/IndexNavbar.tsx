@@ -25,11 +25,11 @@ const Navbar: React.FC<NavbarProps> = () => {
             </div>
 
             <button
-              className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none text-soft-white hover:text-limeneer-cyan"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-              <i className="fas fa-bars" style={{ color: "#00ffff" }}></i>
+              <i className="fa-solid fa-bars"></i>
             </button>
           </div>
           <div
@@ -43,7 +43,7 @@ const Navbar: React.FC<NavbarProps> = () => {
               <li className="flex items-center py-auto">
                 <Link
                   href="/Projects"
-                  className="hover:text-soft-white text-soft-white py-5 px-2"
+                  className="hover:text-limeneer-cyan text-soft-white py-5 px-2"
                 >
                   <i className="fa-solid fa-lightbulb mr-2"></i>
                   Projects
@@ -52,7 +52,7 @@ const Navbar: React.FC<NavbarProps> = () => {
               <li className="flex items-center py-auto">
                 <Link
                   href="/Product"
-                  className="hover:text-soft-white text-soft-white py-5 px-2"
+                  className="hover:text-limeneer-cyan text-soft-white py-5 px-2"
                 >
                   <i className="fa-solid fa-box mr-2"></i>
                   Product
@@ -62,7 +62,7 @@ const Navbar: React.FC<NavbarProps> = () => {
               <li className="flex items-center py-auto">
                 <Link
                   href="/Documentation"
-                  className="hover:text-soft-white text-soft-white py-5 px-2"
+                  className="hover:text-limeneer-cyan text-soft-white py-5 px-2"
                 >
                   <i className="fa-solid fa-book fa-sm mr-2"></i>
                   Documentation
@@ -76,7 +76,7 @@ const Navbar: React.FC<NavbarProps> = () => {
               <li className="flex items-center py-auto">
                 <Link
                   href="https://discord.gg/sR9Zy3YDDh"
-                  className="hover:text-soft-white text-soft-white py-5 px-2"
+                  className="hover:text-limeneer-cyan text-soft-white py-5 px-2"
                 >
                   <i
                     className="fa-brands fa-discord fa-sm mr-2"
@@ -88,7 +88,7 @@ const Navbar: React.FC<NavbarProps> = () => {
               <li className="flex items-center py-auto">
                 <Link
                   href="#About"
-                  className="hover:text-soft-white text-soft-white py-5 px-2"
+                  className="hover:text-limeneer-cyan text-soft-white py-5 px-2"
                 >
                   <i className="fa-solid fa-user mr-2"></i>
                   About Us
