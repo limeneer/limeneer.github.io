@@ -41,30 +41,31 @@ const Navbar: React.FC<NavbarProps> = () => {
           >
             <ul className="flex flex-col gap-4 lg:flex-row list-none mr-auto px-3 py-auto lg:py-auto items-end text-sm uppercase font-bold">
               <li className="flex items-center py-auto">
+                <i className="fa-solid fa-lightbulb text-limeneer-cyan pb-1"></i>
                 <Link
                   href="/Projects"
                   className="hover:text-limeneer-cyan text-soft-white py-5 px-2"
                 >
-                  <i className="fa-solid fa-lightbulb mr-2"></i>
                   Projects
                 </Link>
               </li>
               <li className="flex items-center py-auto">
+                <i className="fa-solid fa-box text-limeneer-cyan pb-1"></i>
                 <Link
                   href="/Product"
                   className="hover:text-limeneer-cyan text-soft-white py-5 px-2"
                 >
-                  <i className="fa-solid fa-box mr-2"></i>
                   Product
                 </Link>
               </li>
 
               <li className="flex items-center py-auto">
+                <i className="fa-solid fa-book fa-sm text-limeneer-cyan pb-1"></i>
+
                 <Link
                   href="/Documentation"
                   className="hover:text-limeneer-cyan text-soft-white py-5 px-2"
                 >
-                  <i className="fa-solid fa-book fa-sm mr-2"></i>
                   Documentation
                 </Link>
               </li>
@@ -74,23 +75,22 @@ const Navbar: React.FC<NavbarProps> = () => {
                 <IndexDropdown />
               </li>
               <li className="flex items-center py-auto">
+                <i className="fa-brands fa-discord fa-sm pb-1 text-limeneer-cyan"></i>
+
                 <Link
                   href="https://discord.gg/sR9Zy3YDDh"
                   className="hover:text-limeneer-cyan text-soft-white py-5 px-2"
                 >
-                  <i
-                    className="fa-brands fa-discord fa-sm mr-2"
-                    // style={{ color: "#00ffff" }}
-                  ></i>
                   Community
                 </Link>
               </li>
               <li className="flex items-center py-auto">
+                <i className="fa-solid fa-user text-limeneer-cyan pb-1"></i>
+
                 <Link
                   href="#About"
                   className="hover:text-limeneer-cyan text-soft-white py-5 px-2"
                 >
-                  <i className="fa-solid fa-user mr-2"></i>
                   About Us
                 </Link>
               </li>
